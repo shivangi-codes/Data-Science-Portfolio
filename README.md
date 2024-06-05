@@ -88,7 +88,7 @@ An exploration of different types of data encountered in data science, such as s
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/data-science-portfolio.git
+   git clone [https://github.com/yourusername/data-science-portfolio.git](https://github.com/shivangi-codes/Data-Science-Portfolio)
    ```
 2. **Navigate to the project directory**:
    ```sh
