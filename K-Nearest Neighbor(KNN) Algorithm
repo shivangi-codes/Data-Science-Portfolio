@@ -1,3 +1,19 @@
+/*
+K-Means (aka K-Means clustering) is an unsupervised learning algorithm that divide unlabeled data into different groups (or clusters). K in K-means refers to the number of 
+clusters/groups (a cluster is a group of similar observations/records). For instance, in the following example, the unlabeled dataset is grouped into a different number of clusters 
+depending on the value of K.
+How to find the best K?
+There are several ways to determine K in the K-Means clustering algorithm:
+
+Elbow Method: A common way to determine the number of ideal cluster (K) in K-means. In this approach, we run the K-means with several candidates and calculate the WCSS. The best K 
+is selected based on a trade-off between the model complexity (overfitting) and the WCSS.
+Silhouette Score: A score between -1 and 1 measuring the similarity among points of a cluster and comparing that with other clusters. A score of -1 indicates that a point is in the 
+wrong cluster, whereas a score of 1 indicates that the point is in the right cluster see [4].
+gap statistics: A method to estimate the number of clusters in a dataset. gap statistic compares the change in the within-cluster variation of output of any clustering technique with 
+an expected reference null distribution see 
+
+*/
+
 {
  "cells": [
   {
